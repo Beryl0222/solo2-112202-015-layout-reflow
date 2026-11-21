@@ -1,0 +1,54 @@
+{
+  "columns": {
+    "blocks.tsv": [
+      "id",
+      "page",
+      "kind",
+      "box",
+      "lang",
+      "text"
+    ],
+    "classrooms.tsv": [
+      "id",
+      "lesson",
+      "mode",
+      "model",
+      "access",
+      "phase"
+    ],
+    "attempts.tsv": [
+      "id",
+      "classroom",
+      "block",
+      "archive",
+      "detail"
+    ],
+    "aids.tsv": [
+      "id",
+      "model",
+      "illustration",
+      "orientation"
+    ]
+  },
+  "references": [
+    [
+      "attempts.tsv",
+      "block",
+      "blocks.tsv"
+    ],
+    [
+      "attempts.tsv",
+      "classroom",
+      "classrooms.tsv"
+    ]
+  ],
+  "compound_keys": [
+    [
+      "classrooms.tsv",
+      [
+        "lesson",
+        "mode"
+      ]
+    ]
+  ]
+}

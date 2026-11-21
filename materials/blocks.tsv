@@ -1,0 +1,9 @@
+id	page	kind	box	lang	text
+B1	1	标题	10,10,570,36	zh	M2 版防脱卡练习
+B2	1	正文	20,65,250,82	zh	面向时钟标记。如右图，将白卡装到靠内侧，保留蓝卡作为辨向标记。
+B3	1	图	300,68,250,140	zh	图 2，照片从设备背面拍摄，上下翻转，用于 M2。
+B4	1	图注	300,209,250,22	en	Fig. 2. Inside tab shown from rear.
+B5	2	正文	20,65,250,90	zh	完成上一页的对照，随后拔掉该卡，让搭档核对露出的卡槽编号。
+B6	2	图注	19,211,524,22	zh	图 3 支持 M1/M2，右箭头方向以练习者站位为准。
+B7	2	正文	302,65,250,70	en	For M1, leave the blue tab in place. For M2, remove the white tab when the partner confirms.
+B8	1	勘误	15,258,547,25	zh	图 2 勘误：M2 实物正视，原图蓝卡位置只作方向参考。
