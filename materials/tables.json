@@ -28,6 +28,20 @@
       "model",
       "illustration",
       "orientation"
+    ],
+    "issue_log.tsv": [
+      "id",
+      "classroom",
+      "recipient",
+      "issued",
+      "version",
+      "blocks"
+    ],
+    "sheet_notes.tsv": [
+      "id",
+      "block",
+      "at",
+      "note"
     ]
   },
   "references": [
@@ -40,6 +54,21 @@
       "attempts.tsv",
       "classroom",
       "classrooms.tsv"
+    ],
+    [
+      "issue_log.tsv",
+      "classroom",
+      "classrooms.tsv"
+    ],
+    [
+      "issue_log.tsv",
+      "blocks",
+      "blocks.tsv"
+    ],
+    [
+      "sheet_notes.tsv",
+      "block",
+      "blocks.tsv"
     ]
   ],
   "compound_keys": [

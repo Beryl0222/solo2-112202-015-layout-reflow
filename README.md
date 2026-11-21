@@ -10,6 +10,8 @@ TSV 文件采用 UTF-8，首行为列名。行首 id 是该表的稳定记录号
 - `materials/classrooms.tsv`。access 记录学生实际可看到哪些材料，model 是对应教具修订。phase 为发放状态。
 - `materials/attempts.tsv`。block 对应老师登记的学生所看资料。archive 表示实际已消费材料的实操。
 - `materials/aids.tsv`。illustration 关联原文的图号，orientation 是讲师已登记的实物训练朝向。
+- `materials/issue_log.tsv`。打印与发放签收，recipient 是收到材料的操作角色。
+- `materials/sheet_notes.tsv`。印务和教师对来源版面的观察。
 
 ## 运行资料检查
 
