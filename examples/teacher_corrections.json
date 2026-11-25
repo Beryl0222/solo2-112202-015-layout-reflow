@@ -1,0 +1,27 @@
+{
+  "corrections": [
+    {
+      "id": "K1",
+      "kind": "orientation",
+      "figure_number": "图 2",
+      "note": "图号方向按 M2 实物正视重订，左右以练习者站位为准（随 B8 勘误页发放）",
+      "target_block_ids": ["B8"]
+    },
+    {
+      "id": "K2",
+      "kind": "occlusion",
+      "figure_number": "图 2",
+      "note": "右槽标签随正视新图重印；旧实物卡收回前该更正不放行",
+      "target_block_ids": ["B3"],
+      "reprinted_block_ids": [],
+      "physical": true
+    },
+    {
+      "id": "K3",
+      "kind": "translation",
+      "figure_number": "图 3",
+      "note": "英文 when 条件与中文“随后”的先后按搭档先确认再拔卡校订",
+      "target_block_ids": ["B5", "B7"]
+    }
+  ]
+}
